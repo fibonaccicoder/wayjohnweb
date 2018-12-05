@@ -1,0 +1,15 @@
+#about{
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(../../assets/images/stockvault-building-blueprint143213.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    min-height: 50vh;
+    border-top: 6px white solid;
+    border-bottom: 6px white solid;
+    
+}
+.about-text{
+    font-weight: 300;
+    font-size: 18px;
+}
+
