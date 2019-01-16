@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import wayjohnInsignia from "../../assets/images/insignia.png"
+import WayjohnLogo from "../../assets/images/wayjohnLogo.png"
 
 import './Navbar.css';
 
@@ -15,6 +15,7 @@ class Navbar extends Component {
                         Home
             <i className="fa fa-bars"></i>
                     </button>
+                    <img src={WayjohnLogo} className="vectorLogo" /> 
                     <div className="navbar-collapse collapse" id="navbarResponsive">
                         <ul className="navbar-nav ml-auto text-center">
                             <li className="nav-item on-hover">
