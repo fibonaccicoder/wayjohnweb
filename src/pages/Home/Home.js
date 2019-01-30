@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 import './Home.css';
 
-import Jumbotron from '../../components/jumbotron/Jumbotron'
-import Services from '../../components/services/Services'
-import About from '../../components/about/About'
+import Jumbotron from '../../components/jumbotron/Jumbotron';
+import Services from '../../components/services/Services';
+import About from '../../components/about/About';
 
 class Home extends Component {
     

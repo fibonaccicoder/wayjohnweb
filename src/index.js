@@ -1,6 +1,7 @@
 
 import ReactDOM from 'react-dom';
-import Router from 'react-router';
+import Route from 'react-router';
+import { Router } from 'react-router-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 
@@ -8,6 +9,7 @@ import Navbar from './components/navbar/Navbar';
 import Home from './pages/home/Home';
 import Footer from './components/footer/Footer';
 import React, { Component } from 'react';
+
 
 class Landing extends Component {
 
