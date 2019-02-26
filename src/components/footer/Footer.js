@@ -9,7 +9,7 @@ class Footer extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8 col-md-10 mx-auto">
-                            {/* <ul className="list-inline text-center">
+                            {/* /* <ul className="list-inline text-center">
                                 <li className="list-inline-item">
                                     <a href="#">
                                         <span className="fa-stack fa-lg">
@@ -34,8 +34,8 @@ class Footer extends Component {
                                         </span>
                                     </a>
                                 </li>
-                            </ul> */}
-                            <p className="copyright text-white mt-3 bhs">Copyright &copy; {WayJohn Surveying, Inc.} 2018</p>
+                            </ul> */ */}
+                            <p className="copyright text-white mt-3 bhs">Copyright &copy; {WayJohn Surveying, Inc.} 2019</p>
                             
                         </div>
                     </div>

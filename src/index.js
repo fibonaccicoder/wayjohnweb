@@ -1,7 +1,7 @@
 
 import ReactDOM from 'react-dom';
-import Route from 'react-router';
-import { Router } from 'react-router-dom';
+
+import { Router, Route, BrowserRouter } from 'react-router';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 
@@ -29,8 +29,11 @@ class Landing extends Component {
     }
 }
 
+export default Landing;
 
-ReactDOM.render(<Landing/>, document.getElementById('root'));
+ReactDOM.render(<Landing/>);
+
+// , document.getElementById('root')
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
