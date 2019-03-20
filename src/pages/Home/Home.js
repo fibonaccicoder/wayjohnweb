@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './Home.css';
+import '../Home.css';
 
 import Jumbotron from '../../components/jumbotron/Jumbotron';
 import Services from '../../components/services/Services';
@@ -18,7 +18,7 @@ class Home extends Component {
             </div>
         )
     }
-}
+};
 
 export default Home;
 
